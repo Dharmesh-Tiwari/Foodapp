@@ -1,0 +1,260 @@
+import {BrowserRouter,Routes,Route} from "react-router-dom";
+import FoodItems from "./DD/foodapp/FoodItems";
+import Login from "./Login";
+import Gotomainu from "./Gotomainu";
+import Signup from "'./Signup";
+import Layout from "./Layout";
+import NoPage from "./NoPage";
+
+function App() {
+  return (
+  < BrowserRouter >
+
+  <Routes>
+    
+    <Route path="/" elements={<Layout />}/>
+    <Route index elements={<Gotomainu />}/>
+    <Route path="Login" elements={<Login />}/>
+    <Route path="Signup" elements={<Signup />}/>
+    <Route path="*" elements={<NoPage />}/>
+    <div>NoPage</div>
+
+    <Route/> 
+
+  </Routes >
+
+  </BrowserRouter >
+  );
+}
+
+export default App;
+
+---------------------------------
+
+
+  <div class="form-outlinimport {BrowserRouter,Routes,Route} from "react-router-dom";
+import FoodItems from "./DD/foodapp/FoodItems";
+import Login from "./Login";
+import Gotomainu from "./Gotomainu";
+import Signup from "'./Signup";
+import Layout from "./Layout";
+import NoPage from "./NoPage";
+
+function App() {
+  return (
+  < BrowserRouter >
+
+  <Routes>
+    
+    <Route path="/" elements={<Layout />}/>
+    <Route index elements={<Gotomainu />}/>
+    <Route path="Login" elements={<Login />}/>
+    <Route path="Signup" elements={<Signup />}/>
+    <Route path="*" elements={<NoPage />}/>
+    <div>NoPage</div>
+
+    <Route/> 
+
+  </Routes >
+
+  </BrowserRouter >
+  );
+}
+
+export default App;
+
+
+-----------------
+import {BrowserRouter,Routes,Route} from "react-router-dom";
+import FoodItems from "./DD/foodapp/FoodItems";
+import Login from "./Login";
+import Gotomainu from "./Gotomainu";
+import Signup from "'./Signup";
+import Layout from "./Layout";
+import NoPage from "./NoPage";
+
+function App() {
+  return (
+  < BrowserRouter >
+
+  <Routes>
+    
+    <Route path="/" elements={<Layout />}/>
+    <Route index elements={<Gotomainu />}/>
+    <Route path="Login" elements={<Login />}/>
+    <Route path="Signup" elements={<Signup />}/>
+    <Route path="*" elements={<NoPage />}/>
+    <div>NoPage</div>
+
+    <Route/> 
+import {BrowserRouter,Routes,Route} from "react-router-dom";
+import FoodItems from "./DD/foodapp/FoodItems";
+import Login from "./Login";
+import Gotomainu from "./Gotomainu";
+import Signup from "'./Signup";
+import Layout from "./Layout";
+import NoPage from "./NoPage";
+
+function App() {
+  return (
+  < BrowserRouter >
+
+  <Routes>
+    
+    <Route path="/" elements={<Layout />}/>
+    <Route index elements={<Gotomainu />}/>
+    <Route path="Login" elements={<Login />}/>
+    <Route path="Signup" elements={<Signup />}/>
+    <Route path="*" elements={<NoPage />}/>
+    <div>NoPage</div>
+
+    <Route/> 
+
+  </Routes >
+
+  </BrowserRouter >
+  );
+}
+
+export default App;
+  </Routes >
+
+  </BrowserRouter >import React from 'react';
+import "./App.css";
+function App () {
+return (
+<>
+
+    <div class="container-fluid"/>
+        <div class="m-5 h2  text-light fw-bold" style="background-color: rgb(47, 47, 211); color: white;  height: 70px; padding: 20px;"/><div/>
+        <div style="{margin: auto; height: 300px; width: 450px; border-radius: 15px; box-shadow: 4px 4px 4px 4px rgb(120, 108, 108);
+        padding: 20px;}"/>
+              <div class="h1 text-center" id='div3'/>
+                <h1>SignUp</h1>
+            <div/> <br/> 
+            <div class="text-center"/>
+            Email : &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; <input type="text" placeholder="Enter Email Id Here"/> <br/> <br/>
+            Password : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;<input type="text" id="div1"  placeholder="Enter Password Here" /> <br/> <br/>
+            Confirm Password :&nbsp; &nbsp;<input type="text"  id="div2" placeholder="Enter Password Here again"/> <br/> <br/>
+           <button type="submit" style="height: 30px; width: 100px; margin-left: 130px;" class="btn btn-primary text-light fw-bold ">Submit</button>
+        <div/>
+       
+        <div/>
+    <div/>
+    <div/>
+
+  </>
+  );
+}
+
+export default App;
+  );
+}
+
+export default App;" id="form2Example2" class="form-control" />
+    <label classimport "./Login.css"="form-label" for="form2Example2">Password</label>
+  </div>
+
+  <div class="row mb-4">
+    <div class="col d-flex justify-content-center">
+      
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
+        <label class="form-check-label" for="form2Example31"> Remember me </label>
+      </div>
+    </div>
+
+    <div class="col">
+     
+      <a href="#!">Forgot password?</a>
+    </div>
+  </div>
+
+  <button type="button" class="btn btn-primary btn-block mb-4">Sign in</button>
+
+  <div class="text-center">
+    <p>Not a member? <a href="#!">Register</a></p>
+    <p>or sign up with:</p>
+    <button type="button" class="btn btn-link btn-floating mx-1">
+      <i class="fab fa-facebook-f"></i>
+    </button>
+
+    <button type="button" class="btn btn-link btn-floating mx-1">
+      <i class="fab fa-google"></i>
+    </button>
+
+    <button type="button" class="btn btn-link btn-floating mx-1">
+      <i class="fab fa-twitter"></i>
+    </button>
+
+    <button type="button" class="btn btn-link btn-floating mx-1">
+      <i class="fab fa-github"></i>
+    </button>
+  </div>
+</form>
+    </div>
+
+    -------------------------
+
+
+
+import React from 'react'
+
+function Navbar() {
+  return (
+    <>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Foodzone</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-link active" aria-current="page" href="#">GoTomenu</a>
+        <a class="nav-link" href="#">Login</a>
+        <a class="nav-link" href="#">Signup</a>
+        <a class="nav-link" href="#">FoodItems</a>
+      </div>
+    </div>
+  </div>
+</nav>
+    </> 
+  )
+}
+
+export default Navbar
+
+---------------------------------
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="wid
+</>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+</head>
+<body >
+    <div class="container-fluid">
+        <div class="m-5 h2  text-light fw-bold" style="background-color: rgb(47, 47, 211); color: white;  height: 70px; padding: 20px;">Restaurant</div>
+        <div style="margin: auto; height: 300px; width: 450px; border-radius: 15px; box-shadow: 4px 4px 4px 4px rgb(120, 108, 108);
+        padding: 20px;">
+            <div class="h1 text-center" >
+                SignUp
+            </div> <br> 
+            <div class="text-center">
+            Email : &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp; &nbsp; <input type="text" placeholder="Enter Email Id Here"> <br> <br>
+            Password : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; &nbsp;<input type="text" placeholder="Enter Password Here"> <br> <br>
+            Confirm Password :&nbsp; &nbsp;<input type="text" placeholder="Enter Password Here again"> <br> <br>
+           <button type="submit" class="btn btn-primary text-light fw-bold ">Submit</button>
+        </div>
+       
+        </div>
+    </div>
+    
+</body>
+</html>
